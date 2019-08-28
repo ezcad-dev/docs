@@ -1,0 +1,70 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage[margin=1.2in]{geometry}
+
+\begin{document}
+
+\title{Introduction to EZCAD}
+\author{Joseph Zhu}
+
+%\maketitle
+
+%\section{\textit{Launch}}
+\section{Launch}
+In Windows, create a shortcut.
+In Linux, set an alias command.
+
+\section{Create a new project}
+Start EZCAD. Select \textsf{Create a new project}, provide \textsf{Project name},
+select \textsf{Project path}, click \textsf{Next}.
+\textsf{Select modules}, click \textsf{OK}.
+
+%\textbf{Test} % bold face
+%\textit{Test} % italic
+%\textsc{Test} % small caps
+%\textsf{Test} % sans serif
+%\textsl{Test} % slanted
+%\texttt{Test} % typewriter text
+
+\section{Load survey}
+Click \textsf{File}, \textsf{Import}, \textsf{Survey}, \textsf{Tova.db file}.
+Select \textsf{tova file}, give \textsf{Survey name}, click \textsf{OK}.
+
+In \textsf{Data explorer}, check \textsf{SURVEY\_BOX\_LABEL} and
+ \textsf{SURVEY\_BOX\_LINE}, to turn them on in the viewer.
+
+In the 3D viewer , click the "eye" icon to view all.
+Make sure the survey look right.
+
+\section{Load line}
+
+Click \textsf{File}, \textsf{Import}, \textsf{Line}, \textsf{Gocad PLine file
+(.pl)}. Select file, give \textsf{Object name}, click \textsf{OK}.
+
+In \textsf{Data explorer}, check the line object to turn it on. Right click
+the object, \textsf{Style Editor}, put atom size to 0 for cultural lines.
+
+\section{Load label}
+
+Click \textsf{File}, \textsf{Import}, \textsf{Label}, \textsf{CSV file}.
+Select file, give \textsf{Object name}, click \textsf{OK}.
+
+\section{Save project}
+
+Click \textsf{File}, \textsf{Save project}. Look at the \textsf{Process log}.
+
+Click \textsf{File}, \textsf{Quit}. Select \textsf{Yes} at prompt \textsf{
+Do you really want to exit?}
+
+\section{Open an old project}
+
+Start EZCAD. Select \textsf{Open an existing project}, select project, click \textsf{Next}.
+
+\section{Save and load object}
+
+Click \textsf{File}, \textsf{Save object}, select object, give filename,
+click \textsf{OK}.
+
+Click \textsf{File}, \textsf{Load object}, select file, click \textsf{OK}.
+
+\end{document} 
